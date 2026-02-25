@@ -1,0 +1,286 @@
+﻿<TextBlock TextWrapping="Wrap" Margin="0,0,0,20" Text="EndlessPixel服务器更新日志" Foreground="#0077FF"
+    FontWeight="Bold" FontSize="24" />
+<local:MyCard Title="2026年2月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyCard Title="2026/02/25" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="修复TPA请求传送选择部分颜色代码显示错误" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增Zmusic插件" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="移除了BoundlessForging插件" />
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2026/02/24" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了大量的新结构" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="对原版结构进行更新改革" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="添加了更多循声守卫战利品" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增冶炼原矿块配方" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增可以在附魔区域放置透明方块而不降低附魔力的功能" />
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2025/02/15" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <local:MyHint Margin="0,8,0,2" Theme="Yellow"
+                    Text="警告&#xA;从今日起进入服务器时将要求绑定QQ账号" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增群服互通机器人" />
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2026/02/14" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="删除损坏的存档，重新开始" />
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2026/02/12" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新FakePlayer插件，以支持1.21.11" />
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2026/02/19" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="修复SimpleTpa无法使用问题" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新升级ViaVersion ViaBackwards ViaRewind插件，以支持1.7.2~1.21.11跨版本" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="修复进服消息无法正常显示问题" />
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2026/02/08" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了登录 皮肤领地插件" />
+            </StackPanel>
+        </local:MyCard>
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="2026年1月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyCard Title="2026/01/31" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增NoChatReports插件" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新TAB插件" />
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2026/01/25" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了Motd ToolStats插件" />
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2026/01/21" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了Vane系列插件" />
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2026/01/17" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了WorldEdit ElytraEnchants插件，以支持1.21.11" />
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2026/01/11" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了VeinMiner插件" />
+            </StackPanel>
+        </local:MyCard>
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="2025年12月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyCard Title="2025/12/27" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了BlockLocker LagFixer插件" />
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2025/12/23" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了ViaVersionStatus插件" />
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2025/12/17" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了AnvilUnlocker EnchantedBook PlayerJoinCommand插件" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了AuraSkills插件" />
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2025/12/13" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="删除旧存档，重新开始" />
+            </StackPanel>
+        </local:MyCard>
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="2025年11月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyCard Title="2025/11/28" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了InvisibleItemFramesLite BedrockArmorstands BoundlessForging MakeGoldMakeSense ShulkerPlus插件" />
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2025/11/02" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="修改了快乐恶魂的最大移动速度" />
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2025/11/01" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="解除了部分附魔之间的冲突" />
+            </StackPanel>
+        </local:MyCard>
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="2025年10月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
+            Margin="20,0" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="2025年9月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
+            Margin="20,0" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="2025年8月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
+            Margin="20,0" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="2025年7月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
+            Margin="20,0" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="2025年6月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
+            Margin="20,0" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="2025年5月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
+            Margin="20,0" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="2025年4月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
+            Margin="20,0" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="2025年3月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
+            Margin="20,0" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="2025年2月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
+            Margin="20,0" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="2025年1月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
+            Margin="20,0" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="2024年12月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
+            Margin="20,0" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="2024年11月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
+            Margin="20,0" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="2024年10月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
+            Margin="20,0" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="2024年9月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
+            Margin="20,0" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="关于本页面" Margin="0,50,0,15" CanSwap="False" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15" HorizontalAlignment="Center">
+        <!-- 标题 + 分割线 -->
+        <TextBlock
+            Text="EndlessPixel 服务器更新日志"
+            FontWeight="Bold"
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Margin="0,0,0,15" />
+        <TextBlock
+            Text="版本 0.1"
+            FontWeight="Bold"
+            FontSize="13"
+            HorizontalAlignment="Center"
+            Margin="0,0,0,20" />
+        <TextBlock
+            Text="本页面采用 CC BY-NC-SA 4.0 许可协议"
+            FontWeight="Bold"
+            FontSize="14"
+            HorizontalAlignment="Center"
+            Margin="0,0,0,20" />
+        <TextBlock
+            Text="© 2024~2026 EndlessPixel Studio 保留所有权利"
+            FontSize="11"
+            Foreground="#0F0F0F"
+            HorizontalAlignment="Center"
+            Margin="0,25,0,0" />
+    </StackPanel>
+</local:MyCard>
