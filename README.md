@@ -1,5 +1,6 @@
 # EndlessPixel-PCL2-Homepage
-<img width="1920" height="985" src="https://github.com/user-attachments/assets/0dcd7951-bed5-4224-83c1-8c4c7d9364ad" />
+
+<img width="960" height="492" src="https://github.com/user-attachments/assets/61963ea8-3f77-4d19-95d9-94459c76c7d0" />
 
 
 ## 项目介绍
