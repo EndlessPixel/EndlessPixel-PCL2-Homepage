@@ -14,7 +14,7 @@ EndlessPixel整合包更新日志  当前版本：未制作
 
 ## 使用方法
 
-<img width="889" height="237" alt="image" src="https://github.com/user-attachments/assets/8aea2c27-9a8f-433a-b477-04443d24b9b4" />
+<img width="731" height="239" alt="image" src="https://github.com/user-attachments/assets/ccc042fc-6a2d-48f6-91af-5e6d3cc26c05" />
 
 ## 项目许可
 本项目采用 CC BY-NC-SA 4.0 许可协议。
