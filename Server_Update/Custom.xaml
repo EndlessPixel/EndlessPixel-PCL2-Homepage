@@ -1,5 +1,16 @@
 ﻿<TextBlock TextWrapping="Wrap" Margin="0,0,0,20" Text="EndlessPixel服务器更新日志" Foreground="#0077FF"
     FontWeight="Bold" FontSize="24" />
+<local:MyCard Title="2026年3月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyCard Title="2026/03/08" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增更多PAPI变量" />
+            </StackPanel>
+        </local:MyCard>
+    </StackPanel>
+</local:MyCard>
 <local:MyCard Title="2026年2月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyCard Title="2026/02/25" Margin="0,0,0,15" CanSwap="True"
@@ -417,7 +428,6 @@
 </local:MyCard>
 <local:MyCard Title="关于本页面" Margin="0,50,0,15" CanSwap="False" IsSwapped="True">
     <StackPanel Margin="25,40,23,15" HorizontalAlignment="Center">
-        <!-- 标题 + 分割线 -->
         <TextBlock
             Text="EndlessPixel 服务器更新日志"
             FontWeight="Bold"
@@ -425,7 +435,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.2"
+            Text="版本 0.3"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
