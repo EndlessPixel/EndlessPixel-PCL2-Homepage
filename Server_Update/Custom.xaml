@@ -9,6 +9,8 @@
                     Text="提示&#xA;粘液科技玩法属于可选内容，与原版分离，想玩的话可以自行研究" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="新增粘液科技以及大量的附属" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="汉化领地菜单CUI+TUI" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/03/08" Margin="0,0,0,15" CanSwap="True"
@@ -444,7 +446,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.4"
+            Text="版本 0.4.1"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
