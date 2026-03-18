@@ -437,7 +437,7 @@
         </local:MyCard>
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="关于本页面" Margin="0,50,0,15" CanSwap="False" IsSwapped="True">
+<local:MyCard Title="关于本页面" Margin="0,50,0,15" CanSwap="False" IsSwapped="False">
     <StackPanel Margin="25,40,23,15" HorizontalAlignment="Center">
         <TextBlock
             Text="EndlessPixel 服务器更新日志"
@@ -446,7 +446,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.4.1"
+            Text="版本 0.4.2"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
@@ -458,7 +458,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,20" />
         <TextBlock
-            Text="© 2024~2026 EndlessPixel Studio 保留所有权利"
+            Text="© 2024~2026 EndlessPixel Studio"
             FontSize="11"
             Foreground="#0F0F0F"
             HorizontalAlignment="Center"
