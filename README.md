@@ -17,9 +17,7 @@ EndlessPixel整合包更新日志  当前版本：未制作
 
 载入EndlessPixel服务器更新日志
 
-<img width="731" height="239" alt="image" src="https://github.com/user-attachments/assets/ccc042fc-6a2d-48f6-91af-5e6d3cc26c05" />
-
-url: [http://pcl2home.endlesspixel.fun/Server_Update/Custom.xaml](http://pcl2home.endlesspixel.fun/Server_Update/Custom.xaml)
+url: [http://pcl2home.endlesspixel.cn/Server_Update/Custom.xaml](http://pcl2home.endlesspixel.cn/Server_Update/Custom.xaml)
 
 如果加载速度缓慢，可以试试以下链接
 
