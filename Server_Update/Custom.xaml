@@ -11,13 +11,10 @@
                     Text="新增粘液科技以及大量的附属" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="汉化领地菜单CUI+TUI" />
-            </StackPanel>
-        </local:MyCard>
-        <local:MyCard Title="2026/03/08" Margin="0,0,0,15" CanSwap="True"
-            IsSwapped="True">
-            <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="新增更多PAPI变量" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="移除了Zmusic插件" />
             </StackPanel>
         </local:MyCard>
     </StackPanel>
@@ -446,7 +443,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.4.2"
+            Text="版本 0.4.3"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
