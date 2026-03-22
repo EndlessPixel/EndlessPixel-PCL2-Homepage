@@ -2,7 +2,7 @@
     FontWeight="Bold" FontSize="24" />
 <local:MyCard Title="2026年3月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
-        <local.MyCard Title="2026/03/21" Margin="0,0,0,15" CanSwap="True"
+        <local:MyCard Title="2026/03/21" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
@@ -10,8 +10,8 @@
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="优化RTP插件的使用体验">
             </StackPanel>
-        </local.MyCard>
-        <local.MyCard Title="2026/03/20" Margin="0,0,0,15" CanSwap="True"
+        </local:MyCard>
+        <local:MyCard Title="2026/03/20" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
@@ -19,7 +19,7 @@
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="汉化RTP插件的语言配置">
             </StackPanel>
-        </local.MyCard>
+        </local:MyCard>
         <local:MyCard Title="2026/03/08" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
@@ -463,7 +463,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.4.5"
+            Text="版本 0.4.6"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
