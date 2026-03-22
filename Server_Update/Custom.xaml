@@ -6,6 +6,13 @@
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="移除了8个粘液科技扩展"/>
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2026/03/21" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="修改扫地机的间隔时间为10分钟"/>
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="优化RTP插件的使用体验"/>
@@ -463,7 +470,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.4.7"
+            Text="版本 0.4.8"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
