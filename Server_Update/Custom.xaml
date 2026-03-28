@@ -2,6 +2,17 @@
     FontWeight="Bold" FontSize="24" />
 <local:MyCard Title="2026年3月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
+        <local:MyCard Title="2026/03/28" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了版本兼容插件，以实现支持MInecraft 26.1~1.7.2版本进入服务器"/>
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="优化了粘液科技的语言文件"/>
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="升级了服务端核心"/>
+            </StackPanel>
+        </local:MyCard>
         <local:MyCard Title="2026/03/21" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
@@ -476,7 +487,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.4.9"
+            Text="版本 0.5.0"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
