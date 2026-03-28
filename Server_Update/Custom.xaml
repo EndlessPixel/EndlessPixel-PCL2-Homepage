@@ -11,6 +11,8 @@
                     Text="优化了粘液科技的语言文件"/>
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="升级了服务端核心"/>
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="优化了聊天消息前缀提示"/>
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/03/21" Margin="0,0,0,15" CanSwap="True"
@@ -487,7 +489,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.5.0"
+            Text="版本 0.5.1"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
