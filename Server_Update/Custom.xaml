@@ -1,5 +1,25 @@
 ﻿<TextBlock TextWrapping="Wrap" Margin="0,0,0,20" Text="EndlessPixel服务器更新日志" Foreground="#0077FF"
     FontWeight="Bold" FontSize="24" />
+<local:MyCard Title="2026年4月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyCard Title="2026/04/03" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="汉化了自定义附魔"/>
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="增加最大渲染至32区块"/>
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2026/04/02" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了SkinsRestorer插件"/>
+            </StackPanel>
+        </local:MyCard>
+    </StackPanel>
+</local:MyCard>
 <local:MyCard Title="2026年3月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyCard Title="2026/03/29" Margin="0,0,0,15" CanSwap="True"
@@ -491,7 +511,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.5.3"
+            Text="版本 0.5.5"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
