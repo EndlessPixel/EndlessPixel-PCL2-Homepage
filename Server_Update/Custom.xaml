@@ -6,16 +6,39 @@
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="汉化了自定义附魔"/>
+                    Text="汉化了自定义附魔" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="增加最大渲染至32区块"/>
+                    Text="删减了部分自定义附魔" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="增加最大渲染至16区块" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="删除了插件SuperTools SuperArmor SuperBow" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了数据包Inclusive Enchants，Endercon，Water Well's Updated" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了数据包Dungeons and Taverns Ocean Monument Overhaul" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了数据包Dungeons and Taverns Jungle Temple Overhaul" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了数据包Dungeons and Taverns Desert Temple Overhaul" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了数据包Dungeons and Taverns Nether Fortress Overhaul" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了数据包Dungeons and Taverns Mineshaft Overhaul" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了数据包Simple Structures: Desert" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了数据包Simple Structures: Mushroom Fields" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了数据包Hopo Better Mineshaft" />
+
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/04/02" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了SkinsRestorer插件"/>
+                    Text="更新了SkinsRestorer插件" />
             </StackPanel>
         </local:MyCard>
     </StackPanel>
@@ -26,46 +49,46 @@
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了插件ElytraEnchants SkinsRestorer EasyBot"/>
+                    Text="更新了插件ElytraEnchants SkinsRestorer EasyBot" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/03/28" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了版本兼容插件，以实现支持MInecraft 26.1~1.7.2版本进入服务器"/>
+                    Text="更新了版本兼容插件，以实现支持MInecraft 26.1~1.7.2版本进入服务器" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="优化了粘液科技的语言文件"/>
+                    Text="优化了粘液科技的语言文件" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="升级了服务端核心"/>
+                    Text="升级了服务端核心" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="优化了聊天消息前缀提示"/>
+                    Text="优化了聊天消息前缀提示" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/03/21" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="移除了一些粘液科技扩展"/>
+                    Text="移除了一些粘液科技扩展" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="修复实体渲染距离过低问题"/>
+                    Text="修复实体渲染距离过低问题" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了TAB的官网链接"/>
+                    Text="更新了TAB的官网链接" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="同步最新的支持链接"/>
+                    Text="同步最新的支持链接" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="修改扫地机的间隔时间为10分钟"/>
+                    Text="修改扫地机的间隔时间为10分钟" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="优化RTP插件的使用体验"/>
+                    Text="优化RTP插件的使用体验" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/03/20" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="修复RTP无法使用的问题"/>
+                    Text="修复RTP无法使用的问题" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="汉化RTP插件的语言配置"/>
+                    Text="汉化RTP插件的语言配置" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/03/08" Margin="0,0,0,15" CanSwap="True"
@@ -82,7 +105,7 @@
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="移除了Zmusic插件" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增RTP随机传送插件"/>
+                    Text="新增RTP随机传送插件" />
             </StackPanel>
         </local:MyCard>
     </StackPanel>
@@ -511,7 +534,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.5.5"
+            Text="版本 0.5.6"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
