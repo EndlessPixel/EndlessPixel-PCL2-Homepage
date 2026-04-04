@@ -6,6 +6,8 @@
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="还原了插件SuperTools SuperArmor SuperBow" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="更新了版本兼容插件，以实现支持MInecraft 26.1.1~1.7.2版本进入服务器" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="移除了EnderCargo插件" />
@@ -542,7 +544,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.5.7"
+            Text="版本 0.5.8"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
