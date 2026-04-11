@@ -2,6 +2,15 @@
     FontWeight="Bold" FontSize="24" />
 <local:MyCard Title="2026年4月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
+        <local:MyCard Title="2026/04/10" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="新增EP-XPcheckin插件" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="升级了服务器核心版本" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了版本兼容插件，以实现支持MInecraft 26.1.2~1.7.2版本进入服务器" />
+            </StackPanel>
+        </local:MyCard>
         <local:MyCard Title="2026/04/04" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
@@ -544,7 +553,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.5.8"
+            Text="版本 0.5.9"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
