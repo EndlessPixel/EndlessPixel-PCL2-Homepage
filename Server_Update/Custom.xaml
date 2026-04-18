@@ -18,6 +18,7 @@
                     Text="升级了MiniMotd TAB EP-XPcheckin ProtocolLib LuckPerms AuraSkills SkinsRestorer WorldGuard插件" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="新增了ItemEdit BlueMap插件" />
             </StackPanel>
+        </local:MyCard>
         <local:MyCard Title="2026/04/10" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
@@ -567,7 +568,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.6.1"
+            Text="版本 0.6.2"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
