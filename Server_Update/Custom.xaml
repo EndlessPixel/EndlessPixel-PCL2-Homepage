@@ -2,11 +2,28 @@
     FontWeight="Bold" FontSize="24" />
 <local:MyCard Title="2026年4月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
+        <local:MyCard Title="2026/04/19" Margin="0,0,0,15" CanSwap="True"
+            IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了CatSeedLoginBlinding AttackIndicator WorldEditSelectionViewer ViaAprilFools插件" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了VeinMiner MiniMotd ToolStats ItemAPIBTIPlugin插件" />
+            </StackPanel>
+        </local:MyCard>
         <local:MyCard Title="2026/04/18" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增了粘液科技扩展DyedBackpacks SlimefunOreChunks SlimefunLuckyBlocks ExoticGarden SimpleUtils SlimyRepair SMG PotionExpansion AlchimiaVitae DotionExpansion MiniyeBench MiniBlocks Gastronomicon SlimyTreeTaps ExtraTools SFCalc MoreTools ExtraHeads" />
+                    Text="新增了粘液科技扩展"/>
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="DyedBackpacks SlimefunOreChunks SlimefunLuckyBlocks ExoticGarden SimpleUtils" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="SlimyRepair SMG PotionExpansion AlchimiaVitae DotionExpansion" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="MiniyeBench MiniBlocks Gastronomicon SlimyTreeTaps ExtraTools" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="SFCalc MoreTools ExtraHeads" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/04/12" Margin="0,0,0,15" CanSwap="True"
@@ -568,7 +585,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.6.2"
+            Text="版本 0.6.4"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
