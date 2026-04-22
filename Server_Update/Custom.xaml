@@ -1,7 +1,18 @@
-﻿<TextBlock TextWrapping="Wrap" Margin="0,0,0,20" Text="EndlessPixel服务器更新日志" Foreground="#0077FF"
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- @formatter:off -->
+<!-- noinspection XmlDeprecatedElement,XmlPathInspection -->
+<TextBlock TextWrapping="Wrap" Margin="0,0,0,20" Text="EndlessPixel服务器更新日志" Foreground="#0077FF"
     FontWeight="Bold" FontSize="24" />
 <local:MyCard Title="2026年4月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
+        <local:MtCard Title="2026/04/22" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="退回更新VeinMiner插件" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="升级了服务器核心版本" />
+            </StackPanel>
+        </local:MtCard>
         <local:MyCard Title="2026/04/19" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
@@ -15,7 +26,7 @@
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增了粘液科技扩展"/>
+                    Text="新增了粘液科技扩展" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="DyedBackpacks SlimefunOreChunks SlimefunLuckyBlocks ExoticGarden SimpleUtils" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
@@ -585,7 +596,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.6.4"
+            Text="版本 0.6.5"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
