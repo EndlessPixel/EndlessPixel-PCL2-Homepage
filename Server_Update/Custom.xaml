@@ -1,7 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- @formatter:off -->
-<!-- noinspection XmlDeprecatedElement,XmlPathInspection -->
-<TextBlock TextWrapping="Wrap" Margin="0,0,0,20" Text="EndlessPixel服务器更新日志" Foreground="#0077FF"
+﻿<TextBlock TextWrapping="Wrap" Margin="0,0,0,20" Text="EndlessPixel服务器更新日志" Foreground="#0077FF"
     FontWeight="Bold" FontSize="24" />
 <local:MyCard Title="2026年4月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
@@ -596,7 +593,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.6.5"
+            Text="版本 0.6.6"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
