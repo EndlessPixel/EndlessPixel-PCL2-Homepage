@@ -2,14 +2,14 @@
     FontWeight="Bold" FontSize="24" />
 <local:MyCard Title="2026年4月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
-        <local:MtCard Title="2026/04/22" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+        <local:MyCard Title="2026/04/22" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="退回更新VeinMiner插件" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="升级了服务器核心版本" />
             </StackPanel>
-        </local:MtCard>
+        </local:MyCard>
         <local:MyCard Title="2026/04/19" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
@@ -593,7 +593,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.6.6"
+            Text="版本 0.6.7"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
