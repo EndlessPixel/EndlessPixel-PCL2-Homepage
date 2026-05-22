@@ -1,7 +1,165 @@
+<!DOCTYPE html>
 <html lang="zh-CN">
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EndlessPixel 服务器更新日志</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+            background-color: #f7f9fc;
+            color: #2c3e50;
+            line-height: 1.7;
+            padding: 30px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        main {
+            background: white;
+            padding: 35px 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        }
+
+        h1 {
+            text-align: center;
+            color: #2b5efb;
+            margin-bottom: 24px;
+            font-size: 26px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #555;
+            margin-bottom: 28px;
+            font-size: 18px;
+            font-weight: normal;
+        }
+
+        p {
+            font-size: 15px;
+            margin-bottom: 14px;
+            color: #333;
+        }
+
+        a {
+            color: #2b5efb;
+            text-decoration: none;
+            font-weight: 500;
+            word-break: break-all;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            margin-top: 12px;
+            padding-left: 22px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 15px;
+            word-break: break-all;
+            display: flex;
+            gap: 8px;
+            align-items: flex-start;
+        }
+
+        .link-box {
+            display: flex;
+            gap: 10px;
+            margin: 8px 0;
+            align-items: center;
+        }
+
+        .link-text {
+            flex: 1;
+            word-break: break-all;
+            padding: 8px;
+            background: #f5f7fa;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .copy-btn {
+            padding: 6px 14px;
+            background: #2b5efb;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: background 0.2s;
+        }
+
+        .copy-btn:hover {
+            background: #1e4cd8;
+        }
+
+        .tip {
+            color: #10b981;
+            font-size: 13px;
+            margin-left: 8px;
+        }
+    </style>
+</head>
+<body>
     <main>
-    
+        <h1>EndlessPixel 服务器更新日志</h1>
+        <h2>↓ 使用方法 ↓</h2>
+
+        <p>打开你的 PCL2 设置，点击 个性化，在主页栏目选择 联网更新。</p>
+        <p>在地址栏输入下方官方地址：</p>
+        <div class="link-box">
+            <div class="link-text" id="mainLink">https://pcl2home.endlesspixel.cn/Server_Update/Custom.xaml</div>
+            <button class="copy-btn" onclick="copyText('mainLink', this)">复制链接</button>
+        </div>
+
+        <p>如果加载速度缓慢，可以试试以下备用链接：</p>
+        <ul>
+            <li>
+                <div class="link-text" id="link1">https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
+                <button class="copy-btn" onclick="copyText('link1', this)">复制</button>
+            </li>
+            <li>
+                <div class="link-text" id="link2">https://gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
+                <button class="copy-btn" onclick="copyText('link2', this)">复制</button>
+            </li>
+            <li>
+                <div class="link-text" id="link3">https://hk.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
+                <button class="copy-btn" onclick="copyText('link3', this)">复制</button>
+            </li>
+            <li>
+                <div class="link-text" id="link4">https://cdn.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
+                <button class="copy-btn" onclick="copyText('link4', this)">复制</button>
+            </li>
+            <li>
+                <div class="link-text" id="link5">https://edgeone.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
+                <button class="copy-btn" onclick="copyText('link5', this)">复制</button>
+            </li>
+        </ul>
     </main>
-  </body>
+
+    <script>
+        function copyText(id, btn) {
+            const text = document.getElementById(id).innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                const oldText = btn.innerText;
+                btn.innerText = "复制成功";
+                setTimeout(() => btn.innerText = oldText, 1500);
+            }).catch(() => {
+                alert("复制失败，请手动选中链接复制");
+            });
+        }
+    </script>
+</body>
 </html>
