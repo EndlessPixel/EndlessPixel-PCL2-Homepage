@@ -47,6 +47,14 @@
             letter-spacing: 0.5px;
         }
 
+        .version-info {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 16px;
+            color: #2b5efb;
+            font-weight: 500;
+        }
+
         p {
             font-size: 16px;
             margin-bottom: 18px;
@@ -150,6 +158,8 @@
     <main>
         <h1>EndlessPixel 服务器更新日志</h1>
         <h2>↓ 使用方法 ↓</h2>
+        
+        <div class="version-info" id="versionDisplay">加载版本中...</div>
 
         <p>打开你的 PCL2 设置，点击 个性化，在主页栏目选择 联网更新。</p>
         <p>在地址栏输入下方官方地址：</p>
@@ -194,6 +204,7 @@
     </main>
 
     <script>
+        // 复制链接功能
         function copyText(id, btn) {
             const text = document.getElementById(id).innerText;
             navigator.clipboard.writeText(text).then(() => {
@@ -201,9 +212,54 @@
                 btn.innerText = "复制成功";
                 setTimeout(() => btn.innerText = oldText, 1500);
             }).catch(() => {
-                alert("复制失败，请手动选中链接复制");
+                alert("复制失败，请手动复制");
             });
         }
+
+        // ✅ 适配你文件结构的版本读取（HTML解析方式）
+        async function loadVersion() {
+            const el = document.getElementById('versionDisplay');
+            try {
+                // 读取 XAML 文件
+                const res = await fetch('./Server_Update/Custom.xaml');
+                const text = await res.text();
+
+                // 把 XAML 当作 HTML 解析
+                const tempDiv = document.createElement('div');
+                tempDiv.innerHTML = text;
+
+                // 定位所有 local:MyCard
+                const cards = tempDiv.querySelectorAll('local\\:MyCard');
+                if (cards.length === 0) throw "未找到任何卡片";
+
+                // 找到标题为“关于本页面”的卡片（你的版本号在这张里）
+                let aboutCard = null;
+                for (const card of cards) {
+                    if (card.getAttribute('Title') === '关于本页面') {
+                        aboutCard = card;
+                        break;
+                    }
+                }
+                if (!aboutCard) throw "未找到“关于本页面”卡片";
+
+                // 找到里面的 StackPanel
+                const stackPanel = aboutCard.querySelector('StackPanel');
+                if (!stackPanel) throw "未找到 StackPanel";
+
+                // 找到第二个 TextBlock（就是版本号那行）
+                const textBlocks = stackPanel.querySelectorAll('TextBlock');
+                if (textBlocks.length < 2) throw "未找到第二个 TextBlock";
+
+                const versionText = textBlocks[1].getAttribute('Text');
+                el.innerText = `当前最新版本：${versionText}`;
+            } catch (err) {
+                el.innerText = "版本加载失败";
+                console.error("版本读取失败：", err);
+            }
+        }
+
+        // 页面加载时自动读取
+        window.addEventListener('DOMContentLoaded', loadVersion);
     </script>
 </body>
 </html>
