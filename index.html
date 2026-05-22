@@ -12,41 +12,45 @@
         }
 
         body {
-            font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
-            background-color: #f7f9fc;
+            font-family: "Microsoft YaHei", "微软雅黑", "Segoe UI", sans-serif;
+            background: linear-gradient(135deg, #eef2f7 0%, #f7f9fc 100%);
             color: #2c3e50;
-            line-height: 1.7;
-            padding: 30px 20px;
-            max-width: 800px;
+            line-height: 1.8;
+            padding: 40px 20px;
+            max-width: 860px;
             margin: 0 auto;
+            min-height: 100vh;
         }
 
         main {
             background: white;
-            padding: 35px 40px;
-            border-radius: 16px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+            padding: 50px 45px;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
+            border: 1px solid rgba(43, 94, 251, 0.06);
         }
 
         h1 {
             text-align: center;
             color: #2b5efb;
-            margin-bottom: 24px;
-            font-size: 26px;
+            margin-bottom: 12px;
+            font-size: 30px;
+            letter-spacing: 1px;
         }
 
         h2 {
             text-align: center;
-            color: #555;
-            margin-bottom: 28px;
-            font-size: 18px;
+            color: #718096;
+            margin-bottom: 40px;
+            font-size: 17px;
             font-weight: normal;
+            letter-spacing: 0.5px;
         }
 
         p {
-            font-size: 15px;
-            margin-bottom: 14px;
-            color: #333;
+            font-size: 16px;
+            margin-bottom: 18px;
+            color: #374151;
         }
 
         a {
@@ -61,54 +65,84 @@
         }
 
         ul {
-            margin-top: 12px;
-            padding-left: 22px;
+            margin-top: 16px;
+            padding-left: 0;
+            list-style: none;
         }
 
         li {
-            margin-bottom: 10px;
+            margin-bottom: 14px;
             font-size: 15px;
             word-break: break-all;
-            display: flex;
-            gap: 8px;
-            align-items: flex-start;
         }
 
         .link-box {
             display: flex;
-            gap: 10px;
-            margin: 8px 0;
+            gap: 12px;
+            margin: 12px 0 24px;
             align-items: center;
+            flex-wrap: wrap;
         }
 
         .link-text {
             flex: 1;
+            min-width: 200px;
             word-break: break-all;
-            padding: 8px;
-            background: #f5f7fa;
-            border-radius: 6px;
+            padding: 12px 15px;
+            background: #f8fafc;
+            border-radius: 10px;
             font-size: 14px;
+            color: #333;
+            border: 1px solid #e2e8f0;
+            transition: all 0.2s;
+        }
+
+        .link-text:hover {
+            background: #f1f5f9;
+            border-color: #cbd5e1;
         }
 
         .copy-btn {
-            padding: 6px 14px;
+            padding: 10px 18px;
             background: #2b5efb;
             color: #fff;
             border: none;
-            border-radius: 6px;
+            border-radius: 10px;
             cursor: pointer;
             white-space: nowrap;
-            transition: background 0.2s;
+            transition: all 0.25s ease;
+            font-weight: 500;
+            font-size: 14px;
+            box-shadow: 0 2px 6px rgba(43, 94, 251, 0.2);
         }
 
         .copy-btn:hover {
             background: #1e4cd8;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 10px rgba(43, 94, 251, 0.25);
+        }
+
+        .copy-btn:active {
+            transform: translateY(0);
         }
 
         .tip {
             color: #10b981;
             font-size: 13px;
             margin-left: 8px;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                padding: 35px 25px;
+            }
+            h1 {
+                font-size: 26px;
+            }
+            .link-box {
+                flex-direction: column;
+                align-items: stretch;
+            }
         }
     </style>
 </head>
@@ -127,24 +161,34 @@
         <p>如果加载速度缓慢，可以试试以下RAW备用链接：</p>
         <ul>
             <li>
-                <div class="link-text" id="link1">https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
-                <button class="copy-btn" onclick="copyText('link1', this)">复制链接</button>
+                <div class="link-box">
+                    <div class="link-text" id="link1">https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
+                    <button class="copy-btn" onclick="copyText('link1', this)">复制链接</button>
+                </div>
             </li>
             <li>
-                <div class="link-text" id="link2">https://gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
-                <button class="copy-btn" onclick="copyText('link2', this)">复制链接</button>
+                <div class="link-box">
+                    <div class="link-text" id="link2">https://gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
+                    <button class="copy-btn" onclick="copyText('link2', this)">复制链接</button>
+                </div>
             </li>
             <li>
-                <div class="link-text" id="link3">https://hk.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
-                <button class="copy-btn" onclick="copyText('link3', this)">复制链接</button>
+                <div class="link-box">
+                    <div class="link-text" id="link3">https://hk.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
+                    <button class="copy-btn" onclick="copyText('link3', this)">复制链接</button>
+                </div>
             </li>
             <li>
-                <div class="link-text" id="link4">https://cdn.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
-                <button class="copy-btn" onclick="copyText('link4', this)">复制链接</button>
+                <div class="link-box">
+                    <div class="link-text" id="link4">https://cdn.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
+                    <button class="copy-btn" onclick="copyText('link4', this)">复制链接</button>
+                </div>
             </li>
             <li>
-                <div class="link-text" id="link5">https://edgeone.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
-                <button class="copy-btn" onclick="copyText('link5', this)">复制链接</button>
+                <div class="link-box">
+                    <div class="link-text" id="link5">https://edgeone.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
+                    <button class="copy-btn" onclick="copyText('link5', this)">复制链接</button>
+                </div>
             </li>
         </ul>
     </main>
