@@ -2,8 +2,10 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EndlessPixel 服务器更新日志</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>EndlessPixel · 服务器更新日志</title>
+    <!-- Font Awesome 6 图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         * {
             margin: 0;
@@ -12,254 +14,526 @@
         }
 
         body {
-            font-family: "Microsoft YaHei", "微软雅黑", "Segoe UI", sans-serif;
-            background: linear-gradient(135deg, #eef2f7 0%, #f7f9fc 100%);
-            color: #2c3e50;
-            line-height: 1.8;
-            padding: 40px 20px;
-            max-width: 860px;
-            margin: 0 auto;
+            font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', 'Roboto', 'Microsoft YaHei', sans-serif;
+            background: radial-gradient(circle at 10% 20%, rgba(235, 245, 255, 0.9), rgba(245, 250, 255, 1)),
+                        linear-gradient(145deg, #e9f0fc 0%, #f5f9ff 100%);
             min-height: 100vh;
+            padding: 48px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* 磨砂玻璃效果主容器 */
+        .glass-panel {
+            max-width: 980px;
+            width: 100%;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(2px);
+            border-radius: 42px;
+            box-shadow: 0 20px 38px -12px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(43, 94, 251, 0.06);
+            transition: all 0.3s ease;
         }
 
         main {
+            padding: 48px 48px 56px;
+        }
+
+        /* 头部区域 */
+        .logo-badge {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+            border-bottom: 2px solid rgba(43, 94, 251, 0.2);
+            padding-bottom: 20px;
+        }
+
+        .title-section h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #1e3c72, #2b5efb);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            letter-spacing: -0.3px;
+            margin-bottom: 6px;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .title-section h1 i {
+            background: none;
+            color: #2b5efb;
+            font-size: 2rem;
+        }
+
+        .sub {
+            color: #5b6e8c;
+            font-size: 0.95rem;
+            font-weight: 450;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 8px;
+        }
+
+        .version-zone {
+            background: #eff3fe;
+            border-radius: 80px;
+            padding: 8px 20px 8px 18px;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            backdrop-filter: blur(2px);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 1px 3px rgba(0,0,0,0.02);
+        }
+
+        .version-zone span {
+            font-weight: 500;
+            color: #1a3e7a;
+        }
+
+        .version-text {
+            font-family: 'SF Mono', 'JetBrains Mono', monospace;
+            font-weight: 600;
             background: white;
-            padding: 50px 45px;
-            border-radius: 20px;
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
-            border: 1px solid rgba(43, 94, 251, 0.06);
-        }
-
-        h1 {
-            text-align: center;
+            padding: 4px 14px;
+            border-radius: 40px;
+            font-size: 0.9rem;
             color: #2b5efb;
-            margin-bottom: 12px;
-            font-size: 30px;
-            letter-spacing: 1px;
+            letter-spacing: 0.3px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
         }
 
-        h2 {
-            text-align: center;
-            color: #718096;
-            margin-bottom: 40px;
-            font-size: 17px;
-            font-weight: normal;
-            letter-spacing: 0.5px;
-        }
-
-        .version-info {
-            text-align: center;
-            margin-bottom: 30px;
-            font-size: 16px;
+        .reload-version {
+            background: transparent;
+            border: none;
             color: #2b5efb;
-            font-weight: 500;
+            cursor: pointer;
+            font-size: 1rem;
+            width: 28px;
+            height: 28px;
+            border-radius: 30px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
         }
 
-        p {
-            font-size: 16px;
+        .reload-version:hover {
+            background: rgba(43, 94, 251, 0.15);
+            transform: rotate(15deg);
+        }
+
+        /* 用法引导卡片 */
+        .usage-card {
+            background: #ffffffdd;
+            background: linear-gradient(120deg, #ffffff 0%, #fefefe 100%);
+            border-radius: 28px;
+            padding: 24px 28px;
+            margin: 28px 0 32px 0;
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.02), 0 1px 3px rgba(0, 0, 0, 0.03);
+            border: 1px solid rgba(43, 94, 251, 0.2);
+        }
+
+        .step {
+            display: flex;
+            align-items: center;
+            gap: 12px;
             margin-bottom: 18px;
-            color: #374151;
+            font-size: 1rem;
         }
 
-        a {
+        .step i {
+            width: 32px;
+            font-size: 1.4rem;
             color: #2b5efb;
-            text-decoration: none;
-            font-weight: 500;
-            word-break: break-all;
         }
 
-        a:hover {
-            text-decoration: underline;
+        .step p {
+            margin: 0;
+            color: #2d3e5f;
+            font-weight: 470;
         }
 
-        ul {
-            margin-top: 16px;
-            padding-left: 0;
-            list-style: none;
+        /* 主链接高亮区域 */
+        .primary-link-section {
+            background: linear-gradient(115deg, #f1f6fe 0%, #eef2fe 100%);
+            border-radius: 24px;
+            padding: 6px 20px 6px 24px;
+            margin-top: 12px;
+            border: 1px solid rgba(43, 94, 251, 0.3);
+            transition: all 0.2s;
         }
 
-        li {
-            margin-bottom: 14px;
-            font-size: 15px;
-            word-break: break-all;
+        .primary-link-section:hover {
+            border-color: #2b5efb;
+            box-shadow: 0 6px 14px rgba(43, 94, 251, 0.08);
+        }
+
+        .link-label {
+            font-weight: 600;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #2b5efb;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* 备用链接网格 */
+        .backup-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            margin-top: 8px;
+        }
+
+        .backup-item {
+            background: #ffffff;
+            border-radius: 20px;
+            transition: all 0.2s cubic-bezier(0.2, 0, 0, 1);
+            border: 1px solid #eef2f8;
+            padding: 6px 16px 6px 20px;
+        }
+
+        .backup-item:hover {
+            border-color: #cbdffc;
+            background: #fafcff;
+            transform: translateX(3px);
+            box-shadow: 0 6px 12px -8px rgba(0, 0, 0, 0.1);
         }
 
         .link-box {
             display: flex;
             gap: 12px;
-            margin: 12px 0 24px;
             align-items: center;
             flex-wrap: wrap;
         }
 
         .link-text {
             flex: 1;
-            min-width: 200px;
+            font-family: 'SF Mono', 'JetBrains Mono', 'Cascadia Code', monospace;
+            font-size: 0.8rem;
+            background: #f8fafd;
+            padding: 12px 16px;
+            border-radius: 16px;
+            color: #1f2f48;
+            border: 1px solid #e9edf2;
             word-break: break-all;
-            padding: 12px 15px;
-            background: #f8fafc;
-            border-radius: 10px;
-            font-size: 14px;
-            color: #333;
-            border: 1px solid #e2e8f0;
-            transition: all 0.2s;
+            transition: all 0.15s;
+            font-weight: 470;
         }
 
         .link-text:hover {
-            background: #f1f5f9;
-            border-color: #cbd5e1;
+            background: #ffffff;
+            border-color: #b9d0f8;
         }
 
         .copy-btn {
-            padding: 10px 18px;
             background: #2b5efb;
-            color: #fff;
             border: none;
-            border-radius: 10px;
+            padding: 10px 20px;
+            border-radius: 40px;
+            font-weight: 600;
+            font-size: 0.8rem;
+            color: white;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
             cursor: pointer;
-            white-space: nowrap;
-            transition: all 0.25s ease;
-            font-weight: 500;
-            font-size: 14px;
-            box-shadow: 0 2px 6px rgba(43, 94, 251, 0.2);
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 4px rgba(43, 94, 251, 0.2);
+            letter-spacing: 0.3px;
+        }
+
+        .copy-btn i {
+            font-size: 0.9rem;
         }
 
         .copy-btn:hover {
-            background: #1e4cd8;
-            transform: translateY(-1px);
-            box-shadow: 0 4px 10px rgba(43, 94, 251, 0.25);
+            background: #1b4ad8;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 18px rgba(43, 94, 251, 0.25);
         }
 
         .copy-btn:active {
-            transform: translateY(0);
+            transform: translateY(1px);
         }
 
-        .tip {
-            color: #10b981;
-            font-size: 13px;
-            margin-left: 8px;
+        .footer-note {
+            margin-top: 48px;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 0.75rem;
+            color: #6c81a3;
+            border-top: 1px solid rgba(43, 94, 251, 0.12);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
         }
 
-        @media (max-width: 600px) {
+        .footer-note i {
+            font-size: 0.7rem;
+            opacity: 0.7;
+        }
+
+        .spinner-icon {
+            animation: spin 1s linear infinite;
+            display: inline-block;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 680px) {
             main {
-                padding: 35px 25px;
+                padding: 28px 22px 36px;
             }
-            h1 {
-                font-size: 26px;
+            .glass-panel {
+                border-radius: 32px;
+            }
+            .title-section h1 {
+                font-size: 1.8rem;
             }
             .link-box {
                 flex-direction: column;
                 align-items: stretch;
             }
+            .copy-btn {
+                justify-content: center;
+            }
+            .primary-link-section {
+                padding: 12px 18px;
+            }
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #eef2fa;
+            border-radius: 6px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #b3c7f0;
+            border-radius: 6px;
         }
     </style>
 </head>
 <body>
+<div class="glass-panel">
     <main>
-        <h1>EndlessPixel 服务器更新日志</h1>
-        <h2>↓ 使用方法 ↓</h2>
-        
-        <div class="version-info" id="versionDisplay">加载版本中...</div>
-
-        <p>打开你的 PCL2 设置，点击 个性化，在主页栏目选择 联网更新。</p>
-        <p>在地址栏输入下方官方地址：</p>
-        <div class="link-box">
-            <div class="link-text" id="mainLink">https://pcl2home.endlesspixel.cn/Server_Update/Custom.xaml</div>
-            <button class="copy-btn" onclick="copyText('mainLink', this)">复制链接</button>
+        <!-- 头部区域 -->
+        <div class="logo-badge">
+            <div class="title-section">
+                <h1>
+                    <i class="fas fa-infinity"></i> 
+                    EndlessPixel
+                </h1>
+                <div class="sub">
+                    <i class="fas fa-code-branch"></i> 服务器更新频道 · PCL2 个性主页
+                </div>
+            </div>
+            <div class="version-zone" id="versionContainer">
+                <i class="fas fa-tag"></i>
+                <span class="version-text" id="versionDisplay">加载中...</span>
+                <button class="reload-version" id="reloadVersionBtn" title="重新获取版本">
+                    <i class="fas fa-rotate-right"></i>
+                </button>
+            </div>
         </div>
 
-        <p>如果加载速度缓慢，可以试试以下RAW备用链接：</p>
-        <ul>
-            <li>
-                <div class="link-box">
-                    <div class="link-text" id="link1">https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
-                    <button class="copy-btn" onclick="copyText('link1', this)">复制链接</button>
-                </div>
-            </li>
-            <li>
-                <div class="link-box">
-                    <div class="link-text" id="link2">https://gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
-                    <button class="copy-btn" onclick="copyText('link2', this)">复制链接</button>
-                </div>
-            </li>
-            <li>
-                <div class="link-box">
-                    <div class="link-text" id="link3">https://hk.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
-                    <button class="copy-btn" onclick="copyText('link3', this)">复制链接</button>
-                </div>
-            </li>
-            <li>
-                <div class="link-box">
-                    <div class="link-text" id="link4">https://cdn.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
-                    <button class="copy-btn" onclick="copyText('link4', this)">复制链接</button>
-                </div>
-            </li>
-            <li>
-                <div class="link-box">
-                    <div class="link-text" id="link5">https://edgeone.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
-                    <button class="copy-btn" onclick="copyText('link5', this)">复制链接</button>
-                </div>
-            </li>
-        </ul>
-    </main>
+        <!-- 引导卡片 -->
+        <div class="usage-card">
+            <div class="step">
+                <i class="fas fa-sliders-h"></i>
+                <p><strong>PCL2 设置 → 个性化</strong> &nbsp; 在主页栏目选择「<strong>联网更新</strong>」</p>
+            </div>
+            <div class="step">
+                <i class="fas fa-link"></i>
+                <p>在地址栏输入下方官方地址，即可同步最新更新日志</p>
+            </div>
+        </div>
 
-    <script>
-        // 复制链接功能
+        <!-- 主链接（高亮） -->
+        <div class="primary-link-section">
+            <div class="link-label">
+                <i class="fas fa-star-of-life"></i> 官方主链接 · 推荐
+            </div>
+            <div class="link-box" style="margin-top: 6px;">
+                <div class="link-text" id="mainLink">https://pcl2home.endlesspixel.cn/Server_Update/Custom.xaml</div>
+                <button class="copy-btn" onclick="copyText('mainLink', this)"><i class="fas fa-copy"></i> 复制链接</button>
+            </div>
+            <div style="font-size: 12px; margin-top: 8px; color: #4477dd;"><i class="fas fa-bolt"></i> 极速响应 · 国内优化</div>
+        </div>
+
+        <!-- 备用链接区域 -->
+        <div style="margin-top: 32px;">
+            <div class="link-label" style="margin-bottom: 14px;">
+                <i class="fas fa-cloud-arrow-up"></i> RAW 加速备用节点
+                <span style="font-size: 12px; background: #eef2ff; padding: 2px 10px; border-radius: 50px; margin-left: 12px;">全球 CDN 镜像</span>
+            </div>
+            <div class="backup-grid">
+                <div class="backup-item">
+                    <div class="link-box">
+                        <div class="link-text" id="link1">https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
+                        <button class="copy-btn" onclick="copyText('link1', this)"><i class="fas fa-copy"></i> 复制</button>
+                    </div>
+                </div>
+                <div class="backup-item">
+                    <div class="link-box">
+                        <div class="link-text" id="link2">https://gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
+                        <button class="copy-btn" onclick="copyText('link2', this)"><i class="fas fa-copy"></i> 复制</button>
+                    </div>
+                </div>
+                <div class="backup-item">
+                    <div class="link-box">
+                        <div class="link-text" id="link3">https://hk.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
+                        <button class="copy-btn" onclick="copyText('link3', this)"><i class="fas fa-copy"></i> 复制</button>
+                    </div>
+                </div>
+                <div class="backup-item">
+                    <div class="link-box">
+                        <div class="link-text" id="link4">https://cdn.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
+                        <button class="copy-btn" onclick="copyText('link4', this)"><i class="fas fa-copy"></i> 复制</button>
+                    </div>
+                </div>
+                <div class="backup-item">
+                    <div class="link-box">
+                        <div class="link-text" id="link5">https://edgeone.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
+                        <button class="copy-btn" onclick="copyText('link5', this)"><i class="fas fa-copy"></i> 复制</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-note">
+            <i class="fas fa-gamepad"></i> 适用于 PCL2 / 启动器个性化主页
+            <i class="fas fa-circle" style="font-size: 4px;"></i>
+            <i class="fas fa-sync-alt"></i> 链接自动适配更新日志
+        </div>
+    </main>
+</div>
+
+<script>
+        // 复制链接功能 (增强反馈)
         function copyText(id, btn) {
-            const text = document.getElementById(id).innerText;
+            const textElement = document.getElementById(id);
+            if (!textElement) return;
+            const text = textElement.innerText;
             navigator.clipboard.writeText(text).then(() => {
-                const oldText = btn.innerText;
-                btn.innerText = "复制成功";
-                setTimeout(() => btn.innerText = oldText, 1500);
+                const originalHTML = btn.innerHTML;
+                btn.innerHTML = '<i class="fas fa-check"></i> 已复制';
+                btn.style.background = "#10b981";
+                setTimeout(() => {
+                    btn.innerHTML = originalHTML;
+                    btn.style.background = "#2b5efb";
+                }, 1500);
             }).catch(() => {
-                alert("复制失败，请手动复制");
+                alert("❌ 复制失败，请手动复制");
             });
         }
 
-        // ✅ 适配你文件结构的版本读取（HTML解析方式）
-        async function loadVersion() {
-            const el = document.getElementById('versionDisplay');
+        // 核心：通过正则从 XAML 文本中提取版本号（格式如 “版本 0.7.7”）
+        function extractVersionFromXaml(xamlText) {
+            // 匹配 Text="版本 0.7.7"  或者 Text='版本 0.7.7'  支持点号数字组合
+            const regex = /Text=["']版本\s+([\d\.]+)["']/i;
+            const match = xamlText.match(regex);
+            if (match && match[1]) {
+                return `版本 ${match[1]}`;
+            }
+            // 兼容更宽松的写法: 版本号可能直接跟在“版本”后没有空格
+            const regexLoose = /Text=["']版本[\s]*([\d\.]+)["']/i;
+            const matchLoose = xamlText.match(regexLoose);
+            if (matchLoose && matchLoose[1]) {
+                return `版本 ${matchLoose[1]}`;
+            }
+            // 最后尝试寻找“关于本页面”卡片区域内的版本数字（兜底）
+            const aboutSection = xamlText.match(/关于本页面[\s\S]{0,500}版本\s+([\d\.]+)/i);
+            if (aboutSection && aboutSection[1]) {
+                return `版本 ${aboutSection[1]}`;
+            }
+            return null;
+        }
+
+        // 获取并显示版本号（带加载动画与重试）
+        const versionSpan = document.getElementById('versionDisplay');
+        const reloadBtn = document.getElementById('reloadVersionBtn');
+
+        async function fetchAndDisplayVersion() {
+            if (!versionSpan) return;
+            // 显示加载中动画
+            versionSpan.innerHTML = '<i class="fas fa-circle-notch spinner-icon"></i> 获取中';
+            versionSpan.style.opacity = '0.8';
             try {
-                // 读取 XAML 文件
-                const res = await fetch('./Server_Update/Custom.xaml');
-                const text = await res.text();
-
-                // 把 XAML 当作 HTML 解析
-                const tempDiv = document.createElement('div');
-                tempDiv.innerHTML = text;
-
-                // 定位所有 local:MyCard
-                const cards = tempDiv.querySelectorAll('local\\:MyCard');
-                if (cards.length === 0) throw "未找到任何卡片";
-
-                // 找到标题为“关于本页面”的卡片（你的版本号在这张里）
-                let aboutCard = null;
-                for (const card of cards) {
-                    if (card.getAttribute('Title') === '关于本页面') {
-                        aboutCard = card;
-                        break;
-                    }
+                // 使用 fetch 获取同目录下 Server_Update/Custom.xaml
+                const response = await fetch('./Server_Update/Custom.xaml', {
+                    cache: 'no-store',   // 防止缓存旧内容
+                    headers: { 'Cache-Control': 'no-cache' }
+                });
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
                 }
-                if (!aboutCard) throw "未找到“关于本页面”卡片";
-
-                // 找到里面的 StackPanel
-                const stackPanel = aboutCard.querySelector('StackPanel');
-                if (!stackPanel) throw "未找到 StackPanel";
-
-                // 找到第二个 TextBlock（就是版本号那行）
-                const textBlocks = stackPanel.querySelectorAll('TextBlock');
-                if (textBlocks.length < 2) throw "未找到第二个 TextBlock";
-
-                const versionText = textBlocks[1].getAttribute('Text');
-                el.innerText = `当前最新版本：${versionText}`;
+                const xamlText = await response.text();
+                const versionStr = extractVersionFromXaml(xamlText);
+                if (versionStr) {
+                    versionSpan.innerHTML = versionStr;
+                    versionSpan.style.opacity = '1';
+                } else {
+                    throw new Error('未匹配到版本号');
+                }
             } catch (err) {
-                el.innerText = "版本加载失败";
-                console.error("版本读取失败：", err);
+                console.warn('版本加载失败:', err);
+                versionSpan.innerHTML = '<span style="color:#dc2626;"><i class="fas fa-exclamation-triangle"></i> 获取失败</span>';
+                versionSpan.style.opacity = '1';
+                // 在版本容器旁添加短暂提示
+                const container = document.querySelector('.version-zone');
+                if (container && !container.querySelector('.version-error-tip')) {
+                    const tip = document.createElement('span');
+                    tip.className = 'version-error-tip';
+                    tip.style.fontSize = '11px';
+                    tip.style.marginLeft = '8px';
+                    tip.style.color = '#f97316';
+                    tip.innerHTML = '请检查网络或稍后重试';
+                    container.appendChild(tip);
+                    setTimeout(() => tip.remove(), 3000);
+                }
             }
         }
 
-        // 页面加载时自动读取
-        window.addEventListener('DOMContentLoaded', loadVersion);
-    </script>
+        // 手动刷新（带旋转动画）
+        let isRefreshing = false;
+        async function manualRefresh() {
+            if (isRefreshing) return;
+            isRefreshing = true;
+            const reloadIcon = reloadBtn?.querySelector('i');
+            if (reloadIcon) reloadIcon.classList.add('fa-spin');
+            await fetchAndDisplayVersion();
+            if (reloadIcon) reloadIcon.classList.remove('fa-spin');
+            isRefreshing = false;
+        }
+
+        // 页面加载时自动获取版本
+        window.addEventListener('DOMContentLoaded', () => {
+            fetchAndDisplayVersion();
+            if (reloadBtn) {
+                reloadBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    manualRefresh();
+                });
+            }
+        });
+</script>
 </body>
 </html>
