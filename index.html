@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -8,101 +9,129 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="glass-panel">
-    <main>
-        <!-- 头部区域 -->
-        <div class="logo-badge">
-            <div class="title-section">
-                <h1>
-                    <i class="fas fa-infinity"></i> 
-                    EndlessPixel
-                </h1>
-                <div class="sub">
-                    <i class="fas fa-code-branch"></i> 服务器更新频道 · PCL2 个性主页
-                </div>
-            </div>
-            <div class="version-zone" id="versionContainer">
-                <i class="fas fa-tag"></i>
-                <span class="version-text" id="versionDisplay">加载中...</span>
-                <button class="reload-version" id="reloadVersionBtn" title="重新获取版本">
-                    <i class="fas fa-rotate-right"></i>
-                </button>
-            </div>
-        </div>
-
-        <!-- 引导卡片 -->
-        <div class="usage-card">
-            <div class="step">
-                <i class="fas fa-sliders-h"></i>
-                <p><strong>PCL2 设置 → 个性化</strong> &nbsp; 在主页栏目选择「<strong>联网更新</strong>」</p>
-            </div>
-            <div class="step">
-                <i class="fas fa-link"></i>
-                <p>在地址栏输入下方官方地址，即可同步最新更新日志</p>
-            </div>
-        </div>
-
-        <!-- 主链接（高亮） -->
-        <div class="primary-link-section">
-            <div class="link-label">
-                <i class="fas fa-star-of-life"></i> 官方主链接 · 推荐
-            </div>
-            <div class="link-box" style="margin-top: 6px;">
-                <div class="link-text" id="mainLink">https://pcl2home.endlesspixel.cn/Server_Update/Custom.xaml</div>
-                <button class="copy-btn" onclick="copyText('mainLink', this)"><i class="fas fa-copy"></i> 复制链接</button>
-            </div>
-            <div style="font-size: 12px; margin-top: 8px; color: #4477dd;"><i class="fas fa-bolt"></i> 极速响应 · 国内优化</div>
-        </div>
-
-        <!-- 备用链接区域 -->
-        <div style="margin-top: 32px;">
-            <div class="link-label" style="margin-bottom: 14px;">
-                <i class="fas fa-cloud-arrow-up"></i> RAW 加速备用节点
-                <span style="font-size: 12px; background: #eef2ff; padding: 2px 10px; border-radius: 50px; margin-left: 12px;">全球 CDN 镜像</span>
-            </div>
-            <div class="backup-grid">
-                <div class="backup-item">
-                    <div class="link-box">
-                        <div class="link-text" id="link1">https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
-                        <button class="copy-btn" onclick="copyText('link1', this)"><i class="fas fa-copy"></i> 复制</button>
+    <div class="glass-panel">
+        <main>
+            <!-- 头部区域 -->
+            <div class="logo-badge">
+                <div class="title-section">
+                    <h1>
+                        <i class="fas fa-infinity"></i>
+                        EndlessPixel
+                    </h1>
+                    <div class="sub">
+                        <i class="fas fa-code-branch"></i> 服务器更新频道 · PCL2 个性主页
                     </div>
                 </div>
-                <div class="backup-item">
-                    <div class="link-box">
-                        <div class="link-text" id="link2">https://gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
-                        <button class="copy-btn" onclick="copyText('link2', this)"><i class="fas fa-copy"></i> 复制</button>
-                    </div>
+                <div class="version-zone" id="versionContainer">
+                    <i class="fas fa-tag"></i>
+                    <span class="version-text" id="versionDisplay">加载中...</span>
+                    <button class="reload-version" id="reloadVersionBtn" title="重新获取版本">
+                        <i class="fas fa-rotate-right"></i>
+                    </button>
                 </div>
-                <div class="backup-item">
-                    <div class="link-box">
-                        <div class="link-text" id="link3">https://hk.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
-                        <button class="copy-btn" onclick="copyText('link3', this)"><i class="fas fa-copy"></i> 复制</button>
-                    </div>
+            </div>
+
+            <!-- 引导卡片 -->
+            <div class="usage-card">
+                <div class="step">
+                    <i class="fas fa-sliders-h"></i>
+                    <p><strong>PCL2 设置 → 个性化</strong> &nbsp; 在主页栏目选择「<strong>联网更新</strong>」</p>
                 </div>
-                <div class="backup-item">
-                    <div class="link-box">
-                        <div class="link-text" id="link4">https://cdn.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
-                        <button class="copy-btn" onclick="copyText('link4', this)"><i class="fas fa-copy"></i> 复制</button>
-                    </div>
+                <div class="step">
+                    <i class="fas fa-link"></i>
+                    <p>在地址栏输入下方官方地址，即可同步最新更新日志</p>
                 </div>
-                <div class="backup-item">
-                    <div class="link-box">
-                        <div class="link-text" id="link5">https://edgeone.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml</div>
-                        <button class="copy-btn" onclick="copyText('link5', this)"><i class="fas fa-copy"></i> 复制</button>
+            </div>
+
+            <!-- 主链接（高亮） -->
+            <div class="primary-link-section">
+                <div class="link-label">
+                    <i class="fas fa-star-of-life"></i> 官方主链接 · 推荐
+                </div>
+                <div class="link-box" style="margin-top: 6px;">
+                    <div class="link-text" id="mainLink">https://pcl2home.endlesspixel.cn/Server_Update/Custom.xaml
+                    </div>
+                    <button class="copy-btn" onclick="copyText('mainLink', this)"><i class="fas fa-copy"></i>
+                        复制链接</button>
+                </div>
+                <div style="font-size: 12px; margin-top: 8px; color: #4477dd;"><i class="fas fa-bolt"></i> 极速响应 · 国内优化
+                </div>
+            </div>
+
+            <!-- 备用链接区域 -->
+            <div style="margin-top: 32px;">
+                <div class="link-label" style="margin-bottom: 14px;">
+                    <i class="fas fa-cloud-arrow-up"></i> RAW 加速备用节点
+                    <span
+                        style="font-size: 12px; background: #eef2ff; padding: 2px 10px; border-radius: 50px; margin-left: 12px;">全球
+                        CDN 镜像</span>
+                </div>
+                <div class="backup-grid">
+                    <div class="backup-item">
+                        <div class="link-box">
+                            <div class="link-text" id="link1">
+                                https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml
+                            </div>
+                            <button class="copy-btn" onclick="copyText('link1', this)"><i class="fas fa-copy"></i>
+                                复制</button>
+                        </div>
+                    </div>
+                    <div class="backup-item">
+                        <div class="link-box">
+                            <div class="link-text" id="link2">
+                                https://gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml
+                            </div>
+                            <button class="copy-btn" onclick="copyText('link2', this)"><i class="fas fa-copy"></i>
+                                复制</button>
+                        </div>
+                    </div>
+                    <div class="backup-item">
+                        <div class="link-box">
+                            <div class="link-text" id="link3">
+                                https://hk.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml
+                            </div>
+                            <button class="copy-btn" onclick="copyText('link3', this)"><i class="fas fa-copy"></i>
+                                复制</button>
+                        </div>
+                    </div>
+                    <div class="backup-item">
+                        <div class="link-box">
+                            <div class="link-text" id="link4">
+                                https://cdn.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml
+                            </div>
+                            <button class="copy-btn" onclick="copyText('link4', this)"><i class="fas fa-copy"></i>
+                                复制</button>
+                        </div>
+                    </div>
+                    <div class="backup-item">
+                        <div class="link-box">
+                            <div class="link-text" id="link5">
+                                https://edgeone.gh-proxy.org/https://raw.githubusercontent.com/EndlessPixel/EndlessPixel-PCL2-Homepage/refs/heads/main/Server_Update/Custom.xaml
+                            </div>
+                            <button class="copy-btn" onclick="copyText('link5', this)"><i class="fas fa-copy"></i>
+                                复制</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="footer-note">
-            <i class="fas fa-gamepad"></i> 适用于 PCL2 / 启动器个性化主页
-            <i class="fas fa-circle" style="font-size: 4px;"></i>
-            <i class="fas fa-sync-alt"></i> 链接自动适配更新日志
-        </div>
-    </main>
-</div>
+            <div class="footer-note">
+                <i class="fas fa-gamepad"></i> 适用于 PCL2 / 启动器个性化主页
+                <i class="fas fa-circle" style="font-size: 4px;"></i>
+                <i class="fas fa-sync-alt"></i> 链接自动适配更新日志
+            </div>
+        </main>
+        <footer>
+            <div class="footer-text">
+                <p>&copy; 2024~2026 EndlessPixel Studio.</p> · <a
+                    href="https://github.com/EndlessPixel/EndlessPixel-PCL2-Homepage">项目GitHub</a>
+            </div>
+        </footer>
+    </div>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
