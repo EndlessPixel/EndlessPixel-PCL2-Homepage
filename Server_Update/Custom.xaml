@@ -2,6 +2,13 @@
     FontWeight="Bold" FontSize="24" />
 <local:MyCard Title="2026年6月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
+        <local:MyCard Title="2026/06/26" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="移除了数据包True Shot Enchantment, mcdonalds" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了数据包crafting_smelting_raw_ore_blocks" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="移除了2个附魔" />
+            </StackPanel>
+        </local:MyCard> 
         <local:MyCard Title="2026/06/25" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="移除了数据包Dungeons and Taverns, amethyst-nether" />
@@ -56,11 +63,6 @@
         <local:MyCard Title="2026/05/19" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了插件EasyBot" />
-            </StackPanel>
-        </local:MyCard>
-         <local:MyCard Title="2026/05/14" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
-            <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="移除了插件WorldEdit WorldEditSelectionViewer" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/05/04" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
@@ -686,7 +688,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.8.4"
+            Text="版本 0.8.5"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
