@@ -2,10 +2,33 @@
     FontWeight="Bold" FontSize="24" />
 <local:MyCard Title="2026年7月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
+        <local:MyCard Title="2026/07/20" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了插件VaneCore VaneAdmin VaneBedtime ProtocolLib AuraSkills" />
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2026/07/19" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了插件SkinsRestorer" />
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2026/07/18" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了插件Slimefun" />
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2026/07/15" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="新增了插件NexusCore ChatWatchdog" />
+            </StackPanel>
+        </local:MyCard>
         <local:MyCard Title="2026/07/01" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了插件Dominion Instantrestock SkinsRestorer" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了插件ViaVersion ViaBackwards ViaRewind，以实现支持MInecraft 26.2~1.7.2版本进入服务器" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了插件Dominion Instantrestock SkinsRestorer" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了插件ViaVersion ViaBackwards ViaRewind，以实现支持MInecraft 26.2~1.7.2版本进入服务器" />
             </StackPanel>
         </local:MyCard>
     </StackPanel>
@@ -14,20 +37,24 @@
     <StackPanel Margin="25,40,23,15">
         <local:MyCard Title="2026/06/30" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="移除了数据包pillagermedievalmansion_ejhf" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="移除了数据包pillagermedievalmansion_ejhf" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了数据包TerraBiomes" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/06/26" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="移除了数据包True Shot Enchantment, mcdonalds" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了数据包crafting_smelting_raw_ore_blocks" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="移除了数据包True Shot Enchantment, mcdonalds" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了数据包crafting_smelting_raw_ore_blocks" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="移除了2个附魔" />
             </StackPanel>
-        </local:MyCard> 
+        </local:MyCard>
         <local:MyCard Title="2026/06/25" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="移除了数据包Dungeons and Taverns, amethyst-nether" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="移除了数据包Dungeons and Taverns, amethyst-nether" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/06/20" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
@@ -38,21 +65,26 @@
         </local:MyCard>
         <local:MyCard Title="2026/06/18" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了插件ViaVersion ViaRewind ViaBackwards TAB AttackIndicator" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了插件ViaVersion ViaRewind ViaBackwards TAB AttackIndicator" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/06/11" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="移除了数据包DnT Desert Temple Overhaul, DnT Jungle Temple Overhaul" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="DnT Mineshaft Overhaul, DnT Nether Fortress Overhaul" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="DnT Ocean Monument Overhaul, beacon_base_lapis, beacon_base_amethyst" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="移除了数据包DnT Desert Temple Overhaul, DnT Jungle Temple Overhaul" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="DnT Mineshaft Overhaul, DnT Nether Fortress Overhaul" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="DnT Ocean Monument Overhaul, beacon_base_lapis, beacon_base_amethyst" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了数据包Trek, MasterCutter" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="新增了数据包Dungeons and Taverns" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/06/06" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了插件Instantrestock ViaRewind ViaBackwards ViaVersion FastAsyncWorldEdit SkinsRestorer" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了插件Instantrestock ViaRewind ViaBackwards ViaVersion FastAsyncWorldEdit SkinsRestorer" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="修复了LagFixer的ItemsCleaner模块配置" />
             </StackPanel>
         </local:MyCard>
@@ -66,13 +98,15 @@
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了插件LagFixer" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="优化了LagFixer的语言配置" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="优化了LagFixer的ItemsCleaner模块配置" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="开启了LagFixer中ItemsCleaner模块的深渊功能" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="开启了LagFixer中ItemsCleaner模块的深渊功能" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="调整了最大可造成伤害上限值至51200" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/05/23" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了插件EasyBot SkinRenderer AnvilUnlocker" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了插件EasyBot SkinRenderer AnvilUnlocker" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了TAB的配置文件" />
             </StackPanel>
         </local:MyCard>
@@ -83,7 +117,8 @@
         </local:MyCard>
         <local:MyCard Title="2026/05/04" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="移除了插件WorldEdit WorldEditSelectionViewer" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="移除了插件WorldEdit WorldEditSelectionViewer" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="新增了插件FastAsyncWorldEdit" />
             </StackPanel>
         </local:MyCard>
@@ -94,9 +129,12 @@
         </local:MyCard>
         <local:MyCard Title="2026/05/02" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="新增了数据包hopobettermineshaft mcdonalds discoveria" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="新增了数据包True Shot Enchantment pillagermedievalmansion_ejhf" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了插件ViaVersion ViaBackwards ViaRewind" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了数据包hopobettermineshaft mcdonalds discoveria" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了数据包True Shot Enchantment pillagermedievalmansion_ejhf" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了插件ViaVersion ViaBackwards ViaRewind" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/05/01" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
@@ -704,7 +742,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.8.7"
+            Text="版本 0.8.8"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
