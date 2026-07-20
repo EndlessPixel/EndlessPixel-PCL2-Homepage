@@ -742,7 +742,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.8.8"
+            Text="版本 0.8.9"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
