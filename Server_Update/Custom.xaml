@@ -1,5 +1,19 @@
 ﻿<TextBlock TextWrapping="Wrap" Margin="0,0,0,20" Text="EndlessPixel服务器更新日志" Foreground="#0077FF"
     FontWeight="Bold" FontSize="24" />
+<local:MyCard Title="2026年8月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyCard Title="2026/08/12" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="移除了插件AlchimiaVitae PotionExpansion SlimeGlue SFCalc" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="修复2个附魔未被正确移除的问题" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="调整了村民交易上限为2048" />
+            </StackPanel>
+        </local:MyCard>
+    </StackPanel>
+</local:MyCard>
 <local:MyCard Title="2026年7月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyCard Title="2026/07/20" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
@@ -742,7 +756,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.9.1"
+            Text="版本 0.9.2"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
