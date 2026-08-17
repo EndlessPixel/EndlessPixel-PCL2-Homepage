@@ -15,6 +15,8 @@
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="新增了插件SlimeGlue" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="移除了插件JustEnoughRecipes" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="更新了插件CommandAPI ItemEdit PlaceholderAPI SkinsRestorer" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="替换了插件FakePlayer为FakePlayer-CE" />
@@ -780,7 +782,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.9.4"
+            Text="版本 0.9.5"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
