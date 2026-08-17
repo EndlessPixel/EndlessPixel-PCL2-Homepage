@@ -2,6 +2,30 @@
     FontWeight="Bold" FontSize="24" />
 <local:MyCard Title="2026年8月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
+        <local:MyCard Title="2026/08/17" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <local:MyHint Margin="0,8,0,2" Theme="Blue"
+                    Text="提示&#xA;次更新仅涉及测试服，后续将会合并到主线" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了服务器版本为26.2" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="移除了数据包Hearths" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了数据包BACAP_Enhanced_Discoveries BlazeandCave's_Advancements_Pack Subsurface TerraBiomes Endercon Nullscape Unlimited_Enchantments" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了插件SlimeGlue" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了插件CommandAPI ItemEdit PlaceholderAPI SkinsRestorer" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="替换了插件FakePlayer为FakePlayer-CE" />
+            </StackPanel>
+        </local:MyCard>   
+        <local:MyCard Title="2026/08/13" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="移除了插件LiteXpansion Gastronomicon SlimefunOreChunks SlimTreeTaps" />
+            </StackPanel>
+        </local:MyCard>
         <local:MyCard Title="2026/08/12" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
@@ -756,7 +780,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 0.9.2"
+            Text="版本 0.9.4"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
