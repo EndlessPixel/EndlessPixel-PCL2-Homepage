@@ -33,17 +33,10 @@
 </local:MyCard>
 <local:MyCard Title="2026年8月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
-        <local:MyCard Title="2026/08/17" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+        <local:MyCard Title="2026/08/22" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了插件 ItemEdit CommandAPI 粘液科技-SlimeGlue" />
-            </StackPanel>
-        </local:MyCard>
-
-        <local:MyCard Title="2026/08/20" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
-            <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了插件 ViaVersion ViaBackwards ViaRewind ViaAprilFools" />
+                    Text="更新了插件 FastAsyncWorldEdit" />
             </StackPanel>
         </local:MyCard>
 
@@ -54,10 +47,17 @@
             </StackPanel>
         </local:MyCard>
 
-        <local:MyCard Title="2026/08/22" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+        <local:MyCard Title="2026/08/20" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了插件 FastAsyncWorldEdit" />
+                    Text="更新了插件 ViaVersion ViaBackwards ViaRewind ViaAprilFools" />
+            </StackPanel>
+        </local:MyCard>
+
+        <local:MyCard Title="2026/08/17" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了插件 ItemEdit CommandAPI 粘液科技-SlimeGlue" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/08/13" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
@@ -868,7 +868,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 1.0.5"
+            Text="版本 1.0.6"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
