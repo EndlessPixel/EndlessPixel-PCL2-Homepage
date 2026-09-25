@@ -5,6 +5,8 @@
         <local:MyCard Title="2026/09/22" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了插件ViaAprilFools ViaBackwards ViaRewind ViaVersion ViaVersionStatus，以实现支持MInecraft 26.3~1.7.2版本进入服务器" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="移除了插件ElytraEnchants SuperArmor SuperBow SuperCrossbow SuperTools" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="新增了数据包”附魔兼容-普通版-二次修改版“，基于大佬萌茶的“附魔兼容-普通版”数据包进行二次修改，以适配本服务器的功能" />
@@ -888,7 +890,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 1.1.3"
+            Text="版本 1.1.4"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
