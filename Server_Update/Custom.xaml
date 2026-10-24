@@ -5,9 +5,19 @@
         <local:MyCard Title="2026/10/23" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了插件ViaVersion ViaBackwards EasyBot TAB" />
+                    Text="更新了插件Dominion" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增了插件GrimacAnticheat ProtocolLib" />
+                    Text="新增了插件ChatManager" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="移除了插件ChatWatchdog NexusCore" />
+            </StackPanel>
+        </local:MyCard>
+        <local:MyCard Title="2026/10/23" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+            <StackPanel Margin="25,40,23,15">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了插件ViaVersion ViaBackwards EasyBot TAB ProtocolLib" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了插件GrimacAnticheat" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="移除了插件CatSeedLoginBlinding" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
@@ -932,7 +942,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 1.2.3"
+            Text="版本 1.2.4"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
