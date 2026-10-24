@@ -57,11 +57,11 @@
         <local:MyCard Title="2026/09/25" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了插件ViaAprilFools ViaBackwards ViaRewind ViaVersion ViaVersionStatus，以实现支持MInecraft 26.3~1.7.2版本进入服务器" />
+                    Text="更新了插件ViaAprilFools ViaBackwards ViaRewind ViaVersion ViaVersionStatus，以实现支持Minecraft 26.3~1.7.2版本进入服务器" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="移除了插件ElytraEnchants SuperArmor SuperBow SuperCrossbow SuperTools" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增了数据包”附魔兼容-普通版-二次修改版“，基于大佬萌茶的“附魔兼容-普通版”数据包进行二次修改，以适配本服务器的功能" />
+                    Text="新增了数据包“附魔兼容-普通版-二次修改版”，基于大佬萌茶的“附魔兼容-普通版”数据包进行二次修改，以适配本服务器的功能" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/09/22" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
@@ -83,7 +83,7 @@
         <local:MyCard Title="2026/09/11" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="CDKer, FakePlayer-CE, ViaBackwards, ViaRewind, ViaVersion" />
+                    Text="更新了插件CDKer FakePlayer-CE ViaBackwards ViaRewind ViaVersion" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="更新了服务端核心" />
             </StackPanel>
@@ -91,19 +91,19 @@
         <local:MyCard Title="2026/09/08" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了插件 NexusCore" />
+                    Text="更新了插件NexusCore" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/09/04" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了插件 CDKer SkinsRestorer ProtocolLib PlaceholderAPI" />
+                    Text="更新了插件CDKer SkinsRestorer ProtocolLib PlaceholderAPI" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/09/03" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了插件 Slimefun" />
+                    Text="更新了插件Slimefun" />
             </StackPanel>
         </local:MyCard>
     </StackPanel>
@@ -113,25 +113,25 @@
         <local:MyCard Title="2026/08/22" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了插件 FastAsyncWorldEdit" />
+                    Text="更新了插件FastAsyncWorldEdit" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/08/21" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了插件 VeinMiner" />
+                    Text="更新了插件VeinMiner" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/08/20" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了插件 ViaVersion ViaBackwards ViaRewind ViaAprilFools" />
+                    Text="更新了插件ViaVersion ViaBackwards ViaRewind ViaAprilFools" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/08/17" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了插件 ItemEdit CommandAPI 粘液科技-SlimeGlue" />
+                    Text="更新了插件ItemEdit CommandAPI 粘液科技-SlimeGlue" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/08/13" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
@@ -143,13 +143,13 @@
         <local:MyCard Title="2026/08/22" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了插件FastAsyncWorldEdit Veinminer" />
+                    Text="更新了插件FastAsyncWorldEdit VeinMiner" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/08/19" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了插件ViaVersion ViaBackwards ViaRewind ViaAprilFools，以实现支持MInecraft 26.2~1.7.2版本进入服务器" />
+                    Text="更新了插件ViaVersion ViaBackwards ViaRewind ViaAprilFools，以实现支持Minecraft 26.2~1.7.2版本进入服务器" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/08/18" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
@@ -159,15 +159,15 @@
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="修改了随机传送配置" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="缩小了世界边界到15000(半径7500)" />
+                    Text="缩小了世界边界到15000（半径7500）" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/08/17" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <local:MyHint Margin="0,8,0,2" Theme="Blue"
-                    Text="提示&#xA;次更新仅涉及测试服，后续将会合并到主线" />
+                    Text="提示&#xA;本次更新仅涉及测试服，后续将会合并到主线" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了服务器版本为26.2" />
+                    Text="更新了服务端版本为26.2" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="移除了数据包Hearths" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
@@ -185,7 +185,7 @@
         <local:MyCard Title="2026/08/13" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="移除了插件LiteXpansion Gastronomicon SlimefunOreChunks SlimTreeTaps" />
+                    Text="移除了插件LiteXpansion Gastronomicon SlimefunOreChunks SlimyTreeTaps" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/08/12" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
@@ -193,7 +193,7 @@
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="移除了插件AlchimiaVitae PotionExpansion SlimeGlue SFCalc" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="修复2个附魔未被正确移除的问题" />
+                    Text="修复了2个附魔未被正确移除的问题" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="调整了村民交易上限为2048" />
             </StackPanel>
@@ -210,17 +210,20 @@
         </local:MyCard>
         <local:MyCard Title="2026/07/19" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了插件SkinsRestorer" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了插件SkinsRestorer" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/07/18" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了插件Slimefun" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了插件Slimefun" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/07/15" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="新增了插件NexusCore ChatWatchdog" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了插件NexusCore ChatWatchdog" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/07/01" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
@@ -228,7 +231,7 @@
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="更新了插件Dominion Instantrestock SkinsRestorer" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了插件ViaVersion ViaBackwards ViaRewind，以实现支持MInecraft 26.2~1.7.2版本进入服务器" />
+                    Text="更新了插件ViaVersion ViaBackwards ViaRewind，以实现支持Minecraft 26.2~1.7.2版本进入服务器" />
             </StackPanel>
         </local:MyCard>
     </StackPanel>
@@ -239,28 +242,32 @@
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="移除了数据包pillagermedievalmansion_ejhf" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了数据包TerraBiomes" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了数据包TerraBiomes" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/06/26" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="移除了数据包True Shot Enchantment, mcdonalds" />
+                    Text="移除了数据包True Shot Enchantment、mcdonalds" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="更新了数据包crafting_smelting_raw_ore_blocks" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="移除了2个附魔" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="移除了2个附魔" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/06/25" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="移除了数据包Dungeons and Taverns, amethyst-nether" />
+                    Text="移除了数据包Dungeons and Taverns、amethyst-nether" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/06/20" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="新增了插件JEIServerProxy" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了插件SkinRenderer" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了插件JEIServerProxy" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了插件SkinRenderer" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/06/18" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
@@ -272,20 +279,23 @@
         <local:MyCard Title="2026/06/11" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="移除了数据包DnT Desert Temple Overhaul, DnT Jungle Temple Overhaul" />
+                    Text="移除了数据包DnT Desert Temple Overhaul、DnT Jungle Temple Overhaul" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="DnT Mineshaft Overhaul, DnT Nether Fortress Overhaul" />
+                    Text="DnT Mineshaft Overhaul、DnT Nether Fortress Overhaul" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="DnT Ocean Monument Overhaul, beacon_base_lapis, beacon_base_amethyst" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了数据包Trek, MasterCutter" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="新增了数据包Dungeons and Taverns" />
+                    Text="DnT Ocean Monument Overhaul、beacon_base_lapis、beacon_base_amethyst" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了数据包Trek、MasterCutter" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了数据包Dungeons and Taverns" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/06/06" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="更新了插件Instantrestock ViaRewind ViaBackwards ViaVersion FastAsyncWorldEdit SkinsRestorer" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="修复了LagFixer的ItemsCleaner模块配置" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="修复了LagFixer的ItemsCleaner模块配置" />
             </StackPanel>
         </local:MyCard>
     </StackPanel>
@@ -294,45 +304,54 @@
     <StackPanel Margin="25,40,23,15">
         <local:MyCard Title="2026/05/30" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="移除了插件ExtendHeads" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了插件LagFixer" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="优化了LagFixer的语言配置" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="优化了LagFixer的ItemsCleaner模块配置" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="移除了插件ExtendHeads" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了插件LagFixer" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="优化了LagFixer的语言配置" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="优化了LagFixer的ItemsCleaner模块配置" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="开启了LagFixer中ItemsCleaner模块的深渊功能" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="调整了最大可造成伤害上限值至51200" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="调整了最大可造成伤害上限值至51200" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/05/23" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="更新了插件EasyBot SkinRenderer AnvilUnlocker" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了TAB的配置文件" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了TAB的配置文件" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/05/19" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="更新了插件EasyBot" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="更新了插件EasyBot" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/05/04" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="移除了插件WorldEdit WorldEditSelectionViewer" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="新增了插件FastAsyncWorldEdit" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了插件FastAsyncWorldEdit" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/05/03" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="移除了插件MiniBlocks" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="移除了插件MiniBlocks" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/05/02" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增了数据包hopobettermineshaft mcdonalds discoveria" />
+                    Text="新增了数据包hopobettermineshaft、mcdonalds、discoveria" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增了数据包True Shot Enchantment pillagermedievalmansion_ejhf" />
+                    Text="新增了数据包True Shot Enchantment、pillagermedievalmansion_ejhf" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="更新了插件ViaVersion ViaBackwards ViaRewind" />
             </StackPanel>
@@ -340,11 +359,11 @@
         <local:MyCard Title="2026/05/01" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="移除了BlueMap插件" />
+                    Text="移除了插件BlueMap" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了服务器核心版本" />
+                    Text="更新了服务端核心版本" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="构建并更新了EP-XPcheckin插件" />
+                    Text="构建并更新了插件EP-XPcheckin" />
             </StackPanel>
         </local:MyCard>
     </StackPanel>
@@ -354,18 +373,18 @@
         <local:MyCard Title="2026/04/22" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="退回更新VeinMiner插件" />
+                    Text="退回更新了插件VeinMiner" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="升级了服务器核心版本" />
+                    Text="升级了服务端核心版本" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/04/19" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增了CatSeedLoginBlinding AttackIndicator WorldEditSelectionViewer ViaAprilFools插件" />
+                    Text="新增了插件CatSeedLoginBlinding AttackIndicator WorldEditSelectionViewer ViaAprilFools" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了VeinMiner MiniMotd ToolStats ItemAPIBTIPlugin插件" />
+                    Text="更新了插件VeinMiner MiniMotd ToolStats ItemAPI BTIPlugin" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/04/18" Margin="0,0,0,15" CanSwap="True"
@@ -376,7 +395,7 @@
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="DyedBackpacks SlimefunOreChunks SlimefunLuckyBlocks ExoticGarden SimpleUtils" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="SlimyRepair SMG PotionExpansion AlchimiaVitae DotionExpansion" />
+                    Text="SlimyRepair SMG PotionExpansion AlchimiaVitae PotionExpansion" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="MiniyeBench MiniBlocks Gastronomicon SlimyTreeTaps ExtraTools" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
@@ -387,17 +406,20 @@
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了版本兼容插件，以实现支持MInecraft 26.1.2~1.7.2版本进入服务器" />
+                    Text="更新了版本兼容插件，以实现支持Minecraft 26.1.2~1.7.2版本进入服务器" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="升级了MiniMotd TAB EP-XPcheckin ProtocolLib LuckPerms AuraSkills SkinsRestorer WorldGuard插件" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="新增了ItemEdit BlueMap插件" />
+                    Text="升级了插件MiniMotd TAB EP-XPcheckin ProtocolLib LuckPerms AuraSkills SkinsRestorer WorldGuard" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了插件ItemEdit BlueMap" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/04/10" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="新增EP-XPcheckin插件" />
-                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="升级了服务器核心版本" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="新增了插件EP-XPcheckin" />
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="升级了服务端核心版本" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/04/04" Margin="0,0,0,15" CanSwap="True"
@@ -406,9 +428,9 @@
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="还原了插件SuperTools SuperArmor SuperBow" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了版本兼容插件，以实现支持MInecraft 26.1.1~1.7.2版本进入服务器" />
+                    Text="更新了版本兼容插件，以实现支持Minecraft 26.1.1~1.7.2版本进入服务器" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="移除了EnderCargo插件" />
+                    Text="移除了插件EnderCargo" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/04/03" Margin="0,0,0,15" CanSwap="True"
@@ -423,7 +445,7 @@
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="删除了插件SuperTools SuperArmor SuperBow" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增了数据包Inclusive Enchants，Endercon，Water Well's Updated" />
+                    Text="新增了数据包Inclusive Enchants、Endercon、Water Well's Updated" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="新增了数据包Dungeons and Taverns Ocean Monument Overhaul" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
@@ -446,7 +468,7 @@
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了SkinsRestorer插件" />
+                    Text="更新了插件SkinsRestorer" />
             </StackPanel>
         </local:MyCard>
     </StackPanel>
@@ -464,7 +486,7 @@
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了版本兼容插件，以实现支持MInecraft 26.1~1.7.2版本进入服务器" />
+                    Text="更新了版本兼容插件，以实现支持Minecraft 26.1~1.7.2版本进入服务器" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="优化了粘液科技的语言文件" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
@@ -479,24 +501,24 @@
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="移除了一些粘液科技扩展" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="修复实体渲染距离过低问题" />
+                    Text="修复了实体渲染距离过低问题" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="更新了TAB的官网链接" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="同步最新的支持链接" />
+                    Text="同步了最新的支持链接" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="修改扫地机的间隔时间为10分钟" />
+                    Text="修改了扫地机的间隔时间为10分钟" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="优化RTP插件的使用体验" />
+                    Text="优化了RTP插件的使用体验" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/03/20" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="修复RTP无法使用的问题" />
+                    Text="修复了RTP无法使用的问题" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="汉化RTP插件的语言配置" />
+                    Text="汉化了RTP插件的语言配置" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/03/08" Margin="0,0,0,15" CanSwap="True"
@@ -505,15 +527,15 @@
                 <local:MyHint Margin="0,8,0,2" Theme="Blue"
                     Text="提示&#xA;粘液科技玩法属于可选内容，与原版分离，想玩的话可以自行研究" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增粘液科技以及大量的附属" />
+                    Text="新增了粘液科技以及大量附属" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="汉化领地菜单CUI+TUI" />
+                    Text="汉化了领地菜单CUI+TUI" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增更多PAPI变量" />
+                    Text="新增了更多PAPI变量" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="移除了Zmusic插件" />
+                    Text="移除了插件Zmusic" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增RTP随机传送插件" />
+                    Text="新增了插件RTP随机传送" />
             </StackPanel>
         </local:MyCard>
     </StackPanel>
@@ -524,11 +546,11 @@
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="修复TPA请求传送选择部分颜色代码显示错误" />
+                    Text="修复了TPA请求传送选择部分颜色代码显示错误" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增Zmusic插件" />
+                    Text="新增了插件Zmusic" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="移除了BoundlessForging插件" />
+                    Text="移除了插件BoundlessForging" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/02/24" Margin="0,0,0,15" CanSwap="True"
@@ -537,20 +559,20 @@
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="新增了大量的新结构" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="对原版结构进行更新改革" />
+                    Text="对原版结构进行了更新改革" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="添加了更多循声守卫战利品" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增冶炼原矿块配方" />
+                    Text="新增了冶炼原矿块配方" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增可以在附魔区域放置透明方块而不降低附魔力的功能" />
+                    Text="新增了可以在附魔区域放置透明方块而不降低附魔力的功能" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/02/17" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更换服务器核心，优化性能" />
+                    Text="更换了服务器核心，优化性能" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2025/02/15" Margin="0,0,0,15" CanSwap="True"
@@ -559,39 +581,39 @@
                 <local:MyHint Margin="0,8,0,2" Theme="Yellow"
                     Text="警告&#xA;从今日起进入服务器时将要求绑定QQ账号" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增群服互通机器人" />
+                    Text="新增了群服互通机器人" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/02/14" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="删除损坏的存档，重新开始" />
+                    Text="删除了损坏的存档，重新开始" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/02/12" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新FakePlayer插件，以支持1.21.11" />
+                    Text="更新了插件FakePlayer，以支持1.21.11" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/02/19" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="修复SimpleTpa无法使用问题" />
+                    Text="修复了SimpleTpa无法使用问题" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新升级ViaVersion ViaBackwards ViaRewind插件，以支持1.7.2~1.21.11跨版本" />
+                    Text="更新升级了插件ViaVersion ViaBackwards ViaRewind，以支持1.7.2~1.21.11跨版本" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="修复进服消息无法正常显示问题" />
+                    Text="修复了进服消息无法正常显示问题" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/02/08" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了登录 皮肤领地插件" />
+                    Text="更新了插件登录、皮肤、领地" />
             </StackPanel>
         </local:MyCard>
     </StackPanel>
@@ -602,16 +624,16 @@
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增NoChatReports插件" />
+                    Text="新增了插件NoChatReports" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新TAB插件" />
+                    Text="更新了插件TAB" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/01/25" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了Motd ToolStats插件" />
+                    Text="更新了插件Motd ToolStats" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/01/21" Margin="0,0,0,15" CanSwap="True"
@@ -625,14 +647,14 @@
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了WorldEdit ElytraEnchants插件，以支持1.21.11" />
+                    Text="更新了插件WorldEdit ElytraEnchants，以支持1.21.11" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2026/01/11" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了VeinMiner插件" />
+                    Text="更新了插件VeinMiner" />
             </StackPanel>
         </local:MyCard>
     </StackPanel>
@@ -643,30 +665,30 @@
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了BlockLocker LagFixer插件" />
+                    Text="更新了插件BlockLocker LagFixer" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2025/12/23" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增了ViaVersionStatus插件" />
+                    Text="新增了插件ViaVersionStatus" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2025/12/17" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增了AnvilUnlocker EnchantedBook PlayerJoinCommand插件" />
+                    Text="新增了插件AnvilUnlocker EnchantedBook PlayerJoinCommand" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了AuraSkills插件" />
+                    Text="更新了插件AuraSkills" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2025/12/13" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="删除旧存档，重新开始" />
+                    Text="删除了旧存档，重新开始" />
             </StackPanel>
         </local:MyCard>
     </StackPanel>
@@ -677,7 +699,7 @@
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="新增了InvisibleItemFramesLite BedrockArmorstands BoundlessForging MakeGoldMakeSense ShulkerPlus插件" />
+                    Text="新增了插件InvisibleItemFramesLite BedrockArmorstands BoundlessForging MakeGoldMakeSense ShulkerPlus" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2025/11/02" Margin="0,0,0,15" CanSwap="True"
@@ -702,16 +724,16 @@
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="优化死亡提示" />
+                    Text="优化了死亡提示" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新Sit插件" />
+                    Text="更新了插件Sit" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2025/10/25" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新Killme插件" />
+                    Text="更新了插件Killme" />
             </StackPanel>
         </local:MyCard>
     </StackPanel>
@@ -942,7 +964,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 1.2.6"
+            Text="版本 1.2.7"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
