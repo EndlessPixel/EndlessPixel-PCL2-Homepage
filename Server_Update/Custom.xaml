@@ -5,7 +5,7 @@
         <local:MyCard Title="2026/10/24" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新了插件Dominion" />
+                    Text="更新了插件Dominion FakePlayer-CE" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="新增了插件ChatManager" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
@@ -704,14 +704,14 @@
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="优化死亡提示" />
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新坐下插件" />
+                    Text="更新Sit插件" />
             </StackPanel>
         </local:MyCard>
         <local:MyCard Title="2025/10/25" Margin="0,0,0,15" CanSwap="True"
             IsSwapped="True">
             <StackPanel Margin="25,40,23,15">
                 <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="更新自杀插件" />
+                    Text="更新Killme插件" />
             </StackPanel>
         </local:MyCard>
     </StackPanel>
@@ -942,7 +942,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 1.2.5"
+            Text="版本 1.2.6"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
