@@ -738,52 +738,10 @@
         </local:MyCard>
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="2025年9月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+<local:MyCard Title="2025年2~9月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
-        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
-            Margin="20,0" />
-    </StackPanel>
-</local:MyCard>
-<local:MyCard Title="2025年8月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
-    <StackPanel Margin="25,40,23,15">
-        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
-            Margin="20,0" />
-    </StackPanel>
-</local:MyCard>
-<local:MyCard Title="2025年7月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
-    <StackPanel Margin="25,40,23,15">
-        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
-            Margin="20,0" />
-    </StackPanel>
-</local:MyCard>
-<local:MyCard Title="2025年6月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
-    <StackPanel Margin="25,40,23,15">
-        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
-            Margin="20,0" />
-    </StackPanel>
-</local:MyCard>
-<local:MyCard Title="2025年5月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
-    <StackPanel Margin="25,40,23,15">
-        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
-            Margin="20,0" />
-    </StackPanel>
-</local:MyCard>
-<local:MyCard Title="2025年4月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
-    <StackPanel Margin="25,40,23,15">
-        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
-            Margin="20,0" />
-    </StackPanel>
-</local:MyCard>
-<local:MyCard Title="2025年3月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
-    <StackPanel Margin="25,40,23,15">
-        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
-            Margin="20,0" />
-    </StackPanel>
-</local:MyCard>
-<local:MyCard Title="2025年2月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
-    <StackPanel Margin="25,40,23,15">
-        <local:MyLoading Text="正在施工中" Width="80" Height="80" HorizontalAlignment="Center"
-            Margin="20,0" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="Emmm 好吧，其实是丢失了... (肥肠抱歉QwQ)" />
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="2025年1月的更新" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
@@ -964,7 +922,7 @@
             HorizontalAlignment="Center"
             Margin="0,0,0,15" />
         <TextBlock
-            Text="版本 1.2.7"
+            Text="版本 1.2.8"
             FontWeight="Bold"
             FontSize="13"
             HorizontalAlignment="Center"
